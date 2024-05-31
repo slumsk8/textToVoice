@@ -1,0 +1,23 @@
+.box-converter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.botoes button{
+  width: 150px;
+  height: 30px;
+  background-color: blueviolet;
+  border: none;
+  box-shadow: 1px 2px 1px #333;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.box-converter textarea {
+  overflow-y: scroll;  
+  width: 60%;  
+  height: 450px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="box-converter">
+    <h1>Conversor de texto para voz</h1>
+    <div class="botoes">
+      <button onclick="convertTextToVoice()">Converter</button>
+      <button onclick="pause()">Pausa</button>
+    </div>
+    <span>Escolha o tipo de voz &ndash;
+      <select id="voice-select"></select>      
+    </span>
+    <textarea id="text-input" rows="500" cols="200" placeholder="Digite seu texto aqui"></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
